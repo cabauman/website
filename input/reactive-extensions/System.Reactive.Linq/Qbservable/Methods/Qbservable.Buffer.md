@@ -1,0 +1,1016 @@
+title: Buffer
+---
+# Qbservable.Buffer Method
+
+Indicates each element of a queryable observable sequence of buffers.
+
+This member is overloaded. For complete information about this member, including syntax, usage, and examples, click a name in the overload list.
+
+## Overload List
+
+NameDescription![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, Int32)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.int32)(v=VS.103))Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers which are produced based on element count information.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource, TBufferClosing>(IQbservable<TSource>, Expression<Func<IObservable<TBufferClosing>>>)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%602(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.linq.expressions.expression%7bsystem.func%7bsystem.iobservable%7b%60%601%7d%7d%7d)(v=VS.103))Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, TimeSpan)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.timespan)(v=VS.103))Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers which are produced based on timing information.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, Int32, Int32)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.int32%2csystem.int32)(v=VS.103))Indicates each element of a queryable observable sequence into zero or more buffers which are produced based on element count information.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource, TBufferOpening, TBufferClosing>(IQbservable<TSource>, IObservable<TBufferOpening>, Expression<Func<TBufferOpening, IObservable<TBufferClosing>>>)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%603(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.iobservable%7b%60%601%7d%2csystem.linq.expressions.expression%7bsystem.func%7b%60%601%2csystem.iobservable%7b%60%602%7d%7d%7d)(v=VS.103))Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, TimeSpan, Int32)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.timespan%2csystem.int32)(v=VS.103))Indicates each element of a queryable observable sequence into a buffer that’s sent out when either it’s full or a given amount of time has elapsed.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, TimeSpan, IScheduler)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.timespan%2csystem.reactive.concurrency.ischeduler)(v=VS.103))Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers which are produced based on timing information.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, TimeSpan, TimeSpan)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.timespan%2csystem.timespan)(v=VS.103))Indicates each element of a queryable observable sequence into zero or more buffers which are produced based on timing information.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, TimeSpan, Int32, IScheduler)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.timespan%2csystem.int32%2csystem.reactive.concurrency.ischeduler)(v=VS.103))Indicates each element of a queryable observable sequence into a buffer that’s sent out when either it’s full or a given amount of time has elapsed.![Public method](https://reactiveui.net/assets/img/Hh303103.pubmethod(en-us,VS.103).gif "Public method")![Static member](https://reactiveui.net/assets/img/Hh244319.static(en-us,VS.103).gif "Static member")[Buffer<TSource>(IQbservable<TSource>, TimeSpan, TimeSpan, IScheduler)](https://msdn.microsoft.com/en-us/library/m:system.reactive.linq.qbservable.buffer%60%601(system.reactive.linq.iqbservable%7b%60%600%7d%2csystem.timespan%2csystem.timespan%2csystem.reactive.concurrency.ischeduler)(v=VS.103))Indicates each element of a queryable observable sequence into zero or more buffers which are produced based on timing information.Top
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, TimeSpan, IScheduler)
+
+Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers which are produced based on timing information.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    timeSpan As TimeSpan, _
+    scheduler As IScheduler _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim timeSpan As TimeSpan
+Dim scheduler As IScheduler
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(timeSpan, _
+    scheduler)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    TimeSpan timeSpan,
+    IScheduler scheduler
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    TimeSpan timeSpan, 
+    IScheduler^ scheduler
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        timeSpan:TimeSpan * 
+        scheduler:IScheduler -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type source.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- timeSpan  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The length of each buffer.
+
+- scheduler  
+  Type: [System.Reactive.Concurrency.IScheduler](IScheduler/IScheduler)  
+  The scheduler to run buffering timers on.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, Int32)
+
+Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers which are produced based on element count information.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    count As Integer _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim count As Integer
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(count)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    int count
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    int count
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        count:int -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type source.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- count  
+  Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+  The length of each buffer.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+A queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, TimeSpan, Int32)
+
+Indicates each element of a queryable observable sequence into a buffer that’s sent out when either it’s full or a given amount of time has elapsed.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    timeSpan As TimeSpan, _
+    count As Integer _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim timeSpan As TimeSpan
+Dim count As Integer
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(timeSpan, _
+    count)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    TimeSpan timeSpan,
+    int count
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    TimeSpan timeSpan, 
+    int count
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        timeSpan:TimeSpan * 
+        count:int -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type source
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- timeSpan  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The maximum time length of a window.
+
+- count  
+  Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+  The maximum element count of a window.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, Int32, Int32)
+
+Indicates each element of a queryable observable sequence into zero or more buffers which are produced based on element count information.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    count As Integer, _
+    skip As Integer _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim count As Integer
+Dim skip As Integer
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(count, _
+    skip)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    int count,
+    int skip
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    int count, 
+    int skip
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        count:int * 
+        skip:int -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type source.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- count  
+  Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+  The length of each buffer.
+
+- skip  
+  Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+  The number of elements to skip between creation of consecutive buffers.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+A queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, TimeSpan, Int32, IScheduler)
+
+Indicates each element of a queryable observable sequence into a buffer that’s sent out when either it’s full or a given amount of time has elapsed.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    timeSpan As TimeSpan, _
+    count As Integer, _
+    scheduler As IScheduler _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim timeSpan As TimeSpan
+Dim count As Integer
+Dim scheduler As IScheduler
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(timeSpan, _
+    count, scheduler)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    TimeSpan timeSpan,
+    int count,
+    IScheduler scheduler
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    TimeSpan timeSpan, 
+    int count, 
+    IScheduler^ scheduler
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        timeSpan:TimeSpan * 
+        count:int * 
+        scheduler:IScheduler -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type source.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- timeSpan  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The maximum time length of a buffer.
+
+- count  
+  Type: [System.Int32](https://msdn.microsoft.com/en-us/library/td2s409d)  
+  The maximum element count of a buffer.
+
+- scheduler  
+  Type: [System.Reactive.Concurrency.IScheduler](IScheduler/IScheduler)  
+  The scheduler to run buffering timers on.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, TimeSpan, TimeSpan, IScheduler)
+
+Indicates each element of a queryable observable sequence into zero or more buffers which are produced based on timing information.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    timeSpan As TimeSpan, _
+    timeShift As TimeSpan, _
+    scheduler As IScheduler _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim timeSpan As TimeSpan
+Dim timeShift As TimeSpan
+Dim scheduler As IScheduler
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(timeSpan, _
+    timeShift, scheduler)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    TimeSpan timeSpan,
+    TimeSpan timeShift,
+    IScheduler scheduler
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    TimeSpan timeSpan, 
+    TimeSpan timeShift, 
+    IScheduler^ scheduler
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        timeSpan:TimeSpan * 
+        timeShift:TimeSpan * 
+        scheduler:IScheduler -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type of source.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- timeSpan  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The length of each buffer.
+
+- timeShift  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The interval between creation of consecutive buffers.
+
+- scheduler  
+  Type: [System.Reactive.Concurrency.IScheduler](IScheduler/IScheduler)  
+  The scheduler to run buffering timers on.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, TimeSpan, TimeSpan)
+
+Indicates each element of a queryable observable sequence into zero or more buffers which are produced based on timing information.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    timeSpan As TimeSpan, _
+    timeShift As TimeSpan _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim timeSpan As TimeSpan
+Dim timeShift As TimeSpan
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(timeSpan, _
+    timeShift)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    TimeSpan timeSpan,
+    TimeSpan timeShift
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    TimeSpan timeSpan, 
+    TimeSpan timeShift
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        timeSpan:TimeSpan * 
+        timeShift:TimeSpan -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type source.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- timeSpan  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The length of each buffer.
+
+- timeShift  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The interval between creation of consecutive buffers.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource\>(IQbservable\<TSource\>, TimeSpan)
+
+Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers which are produced based on timing information.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource) ( _
+    source As IQbservable(Of TSource), _
+    timeSpan As TimeSpan _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim timeSpan As TimeSpan
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(timeSpan)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource>(
+    this IQbservable<TSource> source,
+    TimeSpan timeSpan
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    TimeSpan timeSpan
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        timeSpan:TimeSpan -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type source.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- timeSpan  
+  Type: [System.TimeSpan](https://msdn.microsoft.com/en-us/library/269ew577)  
+  The length of each buffer.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource, TBufferClosing\>(IQbservable\<TSource\>, Expression\<Func\<IObservable\<TBufferClosing\>\>\>)
+
+Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource, TBufferClosing) ( _
+    source As IQbservable(Of TSource), _
+    bufferClosingSelector As Expression(Of Func(Of IObservable(Of TBufferClosing))) _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim bufferClosingSelector As Expression(Of Func(Of IObservable(Of TBufferClosing)))
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(bufferClosingSelector)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource, TBufferClosing>(
+    this IQbservable<TSource> source,
+    Expression<Func<IObservable<TBufferClosing>>> bufferClosingSelector
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource, typename TBufferClosing>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    Expression<Func<IObservable<TBufferClosing>^>^>^ bufferClosingSelector
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        bufferClosingSelector:Expression<Func<IObservable<'TBufferClosing>>> -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type of source.
+
+- TBufferClosing  
+  The type of queryable observable sequence whose elements denote the closing of each produced buffer.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- bufferClosingSelector  
+  Type: [System.Linq.Expressions.Expression](https://msdn.microsoft.com/en-us/library/Bb335710)\<[Func](https://msdn.microsoft.com/en-us/library/Bb534960)\<[IObservable](https://msdn.microsoft.com/en-us/library/Dd990377)\<TBufferClosing\>\>\>  
+  A function invoked to define the boundaries of the produced buffers. A new buffer is started when the previous one is closed.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)
+
+
+
+<br />
+
+# Buffer\<TSource, TBufferOpening, TBufferClosing\>(IQbservable\<TSource\>, IObservable\<TBufferOpening\>, Expression\<Func\<TBufferOpening, IObservable\<TBufferClosing\>\>\>)
+
+Indicates each element of a queryable observable sequence into consecutive non-overlapping buffers.
+
+**Namespace:**  [System.Reactive.Linq](System.Reactive.Linq/System.Reactive.Linq)  
+**Assembly:**  System.Reactive.Providers (in System.Reactive.Providers.dll)
+
+## Syntax
+
+```vb
+'Declaration
+<ExtensionAttribute> _
+Public Shared Function Buffer(Of TSource, TBufferOpening, TBufferClosing) ( _
+    source As IQbservable(Of TSource), _
+    bufferOpenings As IObservable(Of TBufferOpening), _
+    bufferClosingSelector As Expression(Of Func(Of TBufferOpening, IObservable(Of TBufferClosing))) _
+) As IQbservable(Of IList(Of TSource))
+```
+
+```vb
+'Usage
+Dim source As IQbservable(Of TSource)
+Dim bufferOpenings As IObservable(Of TBufferOpening)
+Dim bufferClosingSelector As Expression(Of Func(Of TBufferOpening, IObservable(Of TBufferClosing)))
+Dim returnValue As IQbservable(Of IList(Of TSource))
+
+returnValue = source.Buffer(bufferOpenings, _
+    bufferClosingSelector)
+```
+
+```csharp
+public static IQbservable<IList<TSource>> Buffer<TSource, TBufferOpening, TBufferClosing>(
+    this IQbservable<TSource> source,
+    IObservable<TBufferOpening> bufferOpenings,
+    Expression<Func<TBufferOpening, IObservable<TBufferClosing>>> bufferClosingSelector
+)
+```
+
+```c++
+[ExtensionAttribute]
+public:
+generic<typename TSource, typename TBufferOpening, typename TBufferClosing>
+static IQbservable<IList<TSource>^>^ Buffer(
+    IQbservable<TSource>^ source, 
+    IObservable<TBufferOpening>^ bufferOpenings, 
+    Expression<Func<TBufferOpening, IObservable<TBufferClosing>^>^>^ bufferClosingSelector
+)
+```
+
+```fsharp
+static member Buffer : 
+        source:IQbservable<'TSource> * 
+        bufferOpenings:IObservable<'TBufferOpening> * 
+        bufferClosingSelector:Expression<Func<'TBufferOpening, IObservable<'TBufferClosing>>> -> IQbservable<IList<'TSource>> 
+```
+
+```jscript
+JScript does not support generic types and methods.
+```
+
+#### Type Parameters
+
+- TSource  
+  The type of source.
+
+- TBufferOpening  
+  The type of queryable observable sequence whose elements denote the opening of each produced buffer.
+
+- TBufferClosing  
+  The type of queryable observable sequence whose elements denote the closing of each produced buffer.
+
+#### Parameters
+
+- source  
+  Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<TSource\>  
+  The source sequence to produce buffers over.
+
+- bufferOpenings  
+  Type: [System.IObservable](https://msdn.microsoft.com/en-us/library/Dd990377)\<TBufferOpening\>  
+  The queryable observable sequence whose elements denote the creation of new buffers.
+
+- bufferClosingSelector  
+  Type: [System.Linq.Expressions.Expression](https://msdn.microsoft.com/en-us/library/Bb335710)\<[Func](https://msdn.microsoft.com/en-us/library/Bb549151)\<TBufferOpening, [IObservable](https://msdn.microsoft.com/en-us/library/Dd990377)\<TBufferClosing\>\>\>  
+  The function invoked to define the closing of each produced buffer.
+
+#### Return Value
+
+Type: [System.Reactive.Linq.IQbservable](IQbservable/IQbservable(TSource))\<[IList](https://msdn.microsoft.com/en-us/library/5y536ey6)\<TSource\>\>  
+The queryable observable sequence of buffers.
+
+#### Usage Note
+
+In Visual Basic and C\#, you can call this method as an instance method on any object of type [IQbservable](IQbservable/IQbservable(TSource))\<TSource\>. When you use instance method syntax to call this method, omit the first parameter. For more information, see [](https://msdn.microsoft.com/en-us/library/Bb384936) or [](https://msdn.microsoft.com/en-us/library/Bb383977).
+
+## See Also
+
+#### Reference
+
+[Qbservable Class](Qbservable/Qbservable)
+
+[System.Reactive.Linq Namespace](System.Reactive.Linq/System.Reactive.Linq)

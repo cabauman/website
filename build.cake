@@ -53,11 +53,11 @@ Task("GetSource")
     .IsDependentOn("Clean")
     .Does(() =>
     {
-        GetSource("Akavache");
-        GetSource("DynamicData");
-        GetSource("ReactiveUI");
-        GetSource("Sextant");
-        GetSource("splat");
+        // GetSource("Akavache");
+        // GetSource("DynamicData");
+        // GetSource("ReactiveUI");
+        // GetSource("Sextant");
+        // GetSource("splat");
     });
 
 Task("Build")
